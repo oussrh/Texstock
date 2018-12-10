@@ -1,8 +1,8 @@
 # Texstock
 
-Texstock is a tracking and management application in the field of used textile. Tex Stock has several levels of use:
+Texstock is a tracking and management application in the field of used textile.  
 ![Login page](loginpage.png)
-
+Tex Stock has several levels of use:  
 * Admin
     - Add,Edit,Delete a user
     - Add,Edit,Delete a command
@@ -17,17 +17,16 @@ Texstock is a tracking and management application in the field of used textile. 
     - Look for products
     - Scan a 
     
-To test:
-[Texstock](http://texstock.cloud/projet/11/homepage.php)
-
-**Admin**
-User: admin
-password : admin
-**Scan**
-user: scan
-password : scan
-**Operator**
-user: operator
-password : operator
+[Texstock](http://texstock.cloud/projet/11/homepage.php)  
+To test:  
+**Admin**  
+User: admin  
+password : admin  
+**Scan**  
+user: scan  
+password : scan  
+**Operator**  
+user: operator  
+password : operator  
 
 ![Admin Home](homepage.png)
