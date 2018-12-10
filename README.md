@@ -19,14 +19,15 @@ Texstock is a tracking and management application in the field of used textile. 
     
 To test:
 [Texstock](http://texstock.cloud/projet/11/homepage.php)
-**Admin**
-    User: admin
-    password : admin
-**Scan**
-    user: scan
-    password : scan
-**Operator**
-    user: operator
-    password : operator
 
-![Login page](homepage.png)
+**Admin**
+User: admin
+password : admin
+**Scan**
+user: scan
+password : scan
+**Operator**
+user: operator
+password : operator
+
+![Admin Home](homepage.png)
