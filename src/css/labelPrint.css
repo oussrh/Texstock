@@ -1,0 +1,78 @@
+/* @media print {
+  @page {
+      width:15.5cm !important;
+      height:10.8 !important;
+      margin: 0.8cm 0.8cm !important;
+      size:landscape !important; }
+
+   body * {
+    visibility: hidden;}
+
+  #printContent{
+    width:15.5cm !important;
+    height:10.8 !important;
+    margin: 0.8cm 0.8cm !important;
+    display: block !important;
+    visibility: visible !important;
+    border: 1px solid black !important;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  #printContent *{
+    visibility: visible!important;
+  }
+  #first_row{width: 90%;}
+  #left_firstRow{
+                  display: inline-block;
+                  width: 100%;}
+
+  #produit_label{
+                  display: inline-block;
+                  text-orientation: sideways-left;
+                  font-size: 16px;
+                  font-weight: bold;
+                  float: left;
+                  text-align: left;}
+
+  #nom_prod_Label{display: inline-block;
+                  font-size: 26px;
+                  font-weight: bold;
+                  float: left;
+                  text-align: left;}
+
+
+  .LabelLogo{ margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              margin-top: 1em;
+              margin-bottom: 1em;}
+
+  .LabelLogo img{
+                  text-align: center;
+                  margin-left: auto;
+                  margin-right: auto;}
+
+  .LabelNom{
+              margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              font-size: 1em;
+              margin-bottom: 1em;}
+
+
+  #bcTarget{  margin-left:auto;
+              margin-right:auto;
+              margin-bottom: 1em;}
+
+  .LabelInfo{margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              margin-bottom: 1em;}
+
+} */

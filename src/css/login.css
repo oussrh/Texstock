@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+
+body {
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+  background: url("../img/bgimg.jpg") no-repeat center center fixed; /* Old browsers */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.logo_index{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;}
+
+
+
+#testrect{
+  width: 350px;
+  height: 450px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+  margin-left: 50px;
+  background-color: #312b34;}
+
+.input-group{margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              width: 250px !important;margin-left: 50px;
+              margin-bottom: 10px;
+              }
+.input-group input{background: #3a353c !important; border: 0 none;}
+
+.input-group-addon{background: #3a353c !important;color: #2c292e; border: 0 none;}
+
+.btn-default{
+            margin-left: 50px;
+            width: 100px;
+            height: 20px;
+            background: #2ebc89 !important;
+            border-color: #2ebc89 !important;
+            color: #fff;
+            padding: 0;
+            font-size: 10px;
+            margin-top: 10px;
+            letter-spacing: 3px;
+            cursor: pointer;}
+
+.loginBt:hover,.loginBt:active,.loginBt:visited,.loginBt:active,.loginBt:focus{
+            margin-left: 50px;
+            width: 100px;
+            height: 20px;
+            background: #2ebc89 !important;
+            border-color: #2ebc89 !important;
+            color: #fff;
+            padding: 0;
+            font-size: 10px;
+            cursor: pointer;}
+
+.copyright{         width:auto;
+            margin-left:50px;
+            color:#8a8a8a;
+            margin-top:20px !important;
+            font-size: 12px;}
+
+.error_msg{margin-left:50px;margin-top:10px;color: red;}

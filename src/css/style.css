@@ -1,0 +1,345 @@
+*{margin: 0;
+padding: 0;
+}
+
+html,body {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body{background:#f1f1f1; margin-bottom: 60px;}
+
+.container{background:#FFF !important;
+          min-height: 100%;
+          height:auto !important;
+          height: 100%;
+          width: 100%;
+          margin: 0;
+          padding: 0;}
+
+
+/*--------------------------------------------*/
+/*-------Page Order---------*/
+
+.scan {margin-bottom: 30px;}
+
+.compteModif{cursor: pointer;font:12px;}
+
+input{text-align: center;}
+
+.table_order{max-height: 420px; overflow: scroll;margin-top: 20px;height: 500px;}
+
+.table_cmd{max-height: 620px; overflow: scroll !important;}
+
+.bt_edit_cmd,.bt_edit_cmd:active,.bt_edit_cmd:link,.bt_edit_cmd:visited{text-decoration: none;color: #000;}
+.bt_edit_cmd:hover{text-decoration: none;color: #73baf8;cursor:pointer;}
+
+.bt_edit_customer,.bt_edit_customer:active,.bt_edit_customer:link,.bt_edit_customer:visited{text-decoration: none;color: #000;}
+.bt_edit_customer:hover{text-decoration: none;color: #73baf8;cursor:pointer;}
+.bt_edit_customer{margin-right: 15px;}
+
+#tot_qlt{width: 100%; height: 30px;border-bottom: 1px solid black;margin-bottom: 10px;font-size: 20px; font-weight: bold;}
+
+
+#qualite_CR{background-color: #f69595 !important;}
+#qualite_A{background-color: #f69595 !important;}
+#qualite_B{background-color: #f69595 !important;}
+#qualite_SA{background-color: #f69595 !important;}
+#qualite_SPA{background-color: #f69595 !important;}
+#qualite_SB{background-color: #f69595 !important;}
+#qualite_SCB{background-color: #f69595 !important;}
+
+.panel-body span{margin-left: 200px !important;}
+
+.panel-title strong{text-align: center; margin-left: auto;margin-right: auto; font-weight: bold;}
+
+#scan_conf{width: 100%; position: relative; margin-top: 20px; height: 50px;}
+/*--------------------------------------------*/
+
+
+/*--------------------------------------------*/
+/*--------menu header------*/
+header{
+      background: #252029; /* Old browsers */
+      background: -moz-linear-gradient(top, #252029 0%, #312b34 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #252029 0%,#312b34 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #252029 0%,#312b34 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252029', endColorstr='#312b34',GradientType=0 ); /* IE6-9 */
+      width: 100%;
+      height: 75px;}
+
+.example5 .navbar-brand {
+      display: flex;
+      align-items: center;
+      border: none;}
+
+.example5 .navbar-brand>img {
+      float: left;}
+
+#navbar5{margin-top: 10px;}
+
+#navbar5 a{
+            border-radius: 500px;
+            font-size:18px;
+            background: #FFF;
+            color:#FFF !important;
+            margin-left: 5px;}
+.navbar-toggle .icon-bar{background-color: #FFF;}
+
+/*--------footer fix------*/
+footer{
+      position:absolute;
+      height: 60px;
+      background:#f5f5f5;
+      bottom: 0;
+      width:100%;}
+/*--------------------------------------------*/
+/*--------Order info-----------*/
+
+#left_info{border: 1px solid;border-radius:5px;margin-left: 10px;  padding: 10px;}
+
+#right_info{border: 1px solid;border-radius:5px;float: right;margin-right: 10px;padding: 10px;}
+
+/*--------------------------------------------*/
+/*-----Horloge-----*/
+#horloge{margin-left: 45px;margin-bottom: 20px; display: inline-block;}
+.tools{ float: right;display: inline-block;margin-right: 40px;}
+.tools span{font-size: 30px; color: #3581c4;margin-top: 10px; margin-left: 20px;}
+
+
+/*--------------------------------------------*/
+/*------Menu page index--------*/
+#content_bt{margin-left: auto;margin-right: auto; width: 100%;margin-bottom: 50px;text-align: center;margin-top: 50px;}
+
+#content_bt .wrapper{padding-right: 80px;text-align:center;display:inline-block;margin-bottom: 50px;cursor: pointer;}
+
+.wrapper P{text-align: center; cursor: pointer;font:27px bold arial, sans-serif ;}
+.ri {width: 150px;}
+
+.bt_menu_Princ{
+              width:100px;
+              height: 100px;
+              border: 2px solid;
+              border-radius: 5px;
+              display: inline-block;
+              margin-left:75px;
+              padding-top: 20px;
+              text-align: center;
+              cursor: pointer;}
+
+.bt_menu_Princ:hover,.bt_menu_cmd:hover{border: 2px solid #73baf8; text-decoration: underline;;}
+
+.bt_menu_cmd{ width: 456px;
+              height: 100px;
+              border: 2px solid;
+              border-radius: 5px;
+              margin-left:75px;
+              display: inline-block;
+              text-align: center;
+              cursor: pointer;
+              padding-top: 20px;
+            }
+
+/*----------------------------------------------------------*/
+#toolsBarClientAdd{
+              height:50px;
+              background: #E7E7E7;
+              background: -moz-linear-gradient(top, #ffffff 0%, #e7e7e7 44%); /* FF3.6-15 */
+              background: -webkit-linear-gradient(top, #ffffff 0%,#e7e7e7 44%); /* Chrome10-25,Safari5.1-6 */
+              background: linear-gradient(to bottom, #ffffff 0%,#e7e7e7 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+              margin-bottom:10px;}
+
+#optionCkBox{border: 1px solid;padding:5px; margin-bottom: 20px; margin-top: 20px;}
+#optionCkBox label{margin-right: 15px;}
+
+#optionCkBox input{margin-right: 5px;}
+
+ .glyphicon span{cursor: pointer !important;}
+/*------ligne separation form produit-----------*/
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+/*----------------------------------------------------------*/
+/*------PopUp print prod-----------*/
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+}
+
+
+
+.LabelLogo{
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;}
+
+.LabelLogo img{
+      width: 300px;}
+
+.LabelNom{
+        text-align:center;
+        font-size:1em;
+        }
+
+        #first_row{
+                        width: 90% !important;
+                        display: block;
+                        height: 130px;
+                        margin-bottom: 30px;}
+
+        #left_firstRow,#left_secondRow{
+                        display: inline-block;
+                        text-align: left;}
+
+        #produit_label{
+                        display: inline-block !important;
+                        -webkit-transform: rotate(270deg);
+                        -moz-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                        -o-transform: rotate(270deg);
+                        transform: rotate(270deg);
+                        margin-top: 80px;
+                        font-size: 16px !important;
+                        font-weight: bold !important;
+                        float: left !important;
+                        text-align: center !important;
+
+                      }
+
+        #nom_prod_Label{
+                        display: inline-block !important;
+                        font-size: 120px !important;
+                        font-weight: bold !important;
+                        float: left !important;
+                        text-align: left !important;}
+
+        #right_firstRow,#right_secondRow{
+                        display: inline-block;
+                        float: right;}
+
+        #qualite_label{
+                        display: inline-block !important;
+                        -webkit-transform: rotate(270deg);
+                        -moz-transform: rotate(270deg);
+                        -ms-transform: rotate(270deg);
+                        -o-transform: rotate(270deg);
+                        transform: rotate(270deg);
+                        margin-top: 80px;
+                        font-size: 16px !important;
+                        font-weight: bold !important;
+                        float: right !important;
+                        text-align: right !important;
+                        vertical-align: middle;}
+
+      #prod_qualite_Label{
+                        display: inline-block !important;
+                        font-size: 120px !important;
+                        font-weight: bold !important;
+                        float: left !important;
+                        text-align: right !important;}
+
+      #second_row{
+                        width: 90% !important;
+                        display: block;
+                        height: 100px;}
+
+      #poids_prod_Label{
+                        display: inline-block !important;
+                        font-size: 60px !important;
+                        margin-left: 60px !important;
+                        font-weight: bold !important;
+                        float: left !important;
+                        text-align: left !important;}
+
+#bcTarget{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        .line_sep{border-top: 5px solid #000;}
+
+        #label_title {margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 1em}
+
+        #label_subtitle {margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    font-size: 35px;
+                    font-weight: bold;
+                    margin-bottom: 1em;}
+
+}
+
+
+/*-----------------------------*/
+/*-------Form new prod--------*/
+
+form {margin-top: 10px;}
+
+form fieldset {border:1px solid #e4e3e4;padding: 10px 20px 10px 20px;}
+
+#optionCkBox input,#optionCkBox label {cursor: pointer;}
+
+/*----------------------------------------------------------*/
+/*------PopUp packlist prod-----------*/
+
+
+
+/*----------------------------------------------------------*/
+/*------packlist prod row-----------*/
+.qualiteA{background-color:red;!important}
+.qualite_B{background-color:blue;!important}
+.qualite_C{background-color:yellow;!important}
+
+#CR_bt,#A_bt,#B_bt,#SA_bt,#SPA_bt,#SB_bt,#SCB_bt,#All_p_bt{cursor: pointer; text-align: center;height: 30px;margin-top: 10px; padding-top: 3px; font-size:16px;font-weight:bold;margin-right: 5px; border-radius: 5px;}
+
+#All_p_bt{background: #54ff7e;}
+#CR_bt{background: #f69595;}
+#A_bt{background: #f6d095;}
+#B_bt{background: #95d0f6;}
+#SA_bt{background: #eab515;}
+#SPA_bt{background: #eab515;}
+#SB_bt{background: #a3b1ef;}
+#SCB_bt{background: #a3b1ef;}
+/*----------------------------------------------------------*/
+/*------Page list_inv_prod.php-----------*/
+
+#info_list_left{
+                  border-radius: 10px;
+                  border: 1px solid black;
+                  padding : 10px;
+                  margin-bottom: 20px;}
+
+#info_list_right{
+                  border-radius: 10px;
+                  border: 1px solid black;
+                  padding : 5px;}
+
+#info_list_left span{display: block !important;}
+
+
+#list_inv_prod{margin-top: 20px;}
+
+.tdCenter{text-align: center; }
+.iconPointer{cursor: pointer !important;}
+/*----------------------------------------------------------*/

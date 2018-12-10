@@ -1,0 +1,147 @@
+@media print {
+  @page {
+      width:104mm !important;
+      height:159mm !important;
+      size:portrait !important; }
+
+    #printContent *{
+      visibility: visible !important;
+    }
+
+  #printContent{
+    width:99% !important;
+    height:100% !important;
+    display: block !important;
+    visibility: visible !important;
+    border: 1px solid black !important;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6mm;
+    padding-bottom: 4mm;
+    position: relative;
+    left: 0;
+    top: 5mm;
+  }
+
+
+  #first_row{
+                  width: 99% !important;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                  height: 25mm;
+                  border-bottom: 1px solid black !important;
+                  margin-bottom: 1mm;}
+
+  #left_firstRow,#left_secondRow{
+                  display: inline-block;
+                  text-align: left;}
+
+  #produit_label{
+                  display: inline-block !important;
+                  -webkit-transform: rotate(270deg);
+                  -moz-transform: rotate(270deg);
+                  -ms-transform: rotate(270deg);
+                  -o-transform: rotate(270deg);
+                  transform: rotate(270deg);
+                  margin-top: 7mm;
+                  font-size: 4mm !important;
+                  font-weight: bold !important;
+                  float: left !important;
+                  text-align: center !important;
+
+                }
+
+  #nom_prod_Label{
+                  display: inline-block !important;
+                  font-size: 14mm !important;
+                  font-weight: bold !important;
+                  float: left !important;
+                  text-align: left !important;}
+
+  #right_firstRow,#right_secondRow{
+                  display: inline-block;
+                  float: right;}
+
+  #qualite_label{
+                  display: inline-block !important;
+                  -webkit-transform: rotate(270deg);
+                  -moz-transform: rotate(270deg);
+                  -ms-transform: rotate(270deg);
+                  -o-transform: rotate(270deg);
+                  transform: rotate(270deg);
+                  margin-top: 8mm;
+                  font-size: 4mm !important;
+                  font-weight: bold !important;
+                  float: left !important;
+                  text-align: center !important;}
+
+#prod_qualite_Label{
+                  display: inline-block !important;
+                  font-size: 16mm !important;
+                  font-weight: bold !important;
+                  float: left !important;
+                  text-align: left !important;}
+
+#second_row{
+                  width: 99% !important;
+                  display: block;
+                  height: 20mm;
+                  margin-left: auto;
+                  margin-right: auto;
+                  border-bottom: 1px solid black;}
+
+#poids_prod_Label{
+                  display: inline-block !important;
+                  font-size: 14mm !important;
+                  margin-left: 1mm;
+                  font-weight: bold !important;
+                  float: left !important;
+                  text-align: left !important;}
+
+#right_secondRow{margin-right: 6mm;}
+
+.line_sep{border-top: 2px solid #000;}
+
+#third_row{
+          position: relative;
+          width: 100% !important;
+          display: block;
+          height: 45mm;
+          border-bottom: 1px solid black;
+          }
+
+#bcTarget{
+  position: relative;
+  width: 100% !important;
+  margin-left: 4mm;
+  }
+
+  #the4th_row{
+            position: relative;
+            width: 90% !important;
+            display: block;
+            height: 60mm;
+            margin-left: auto !important;
+            margin-right: auto !important;}
+
+
+  #logo_label{  width: 80mm;
+                margin-left:auto !important;
+                margin-right: auto !important;
+                text-align: center !important;
+                margin-bottom: 4mm;}
+
+
+  #info_label {
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    font-size: 4mm;
+                    height: 20mm;
+                    font-weight: bold;}
+
+  .label_subtitle{text-align: center; margin-bottom: 4mm; display: block;}
+
+}
