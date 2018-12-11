@@ -36,5 +36,5 @@ Technology used:
 - Boostrap
 - Javascript/jquery/AJAX
 - [sweetalert JS](https://sweetalert.js.org)
-- PHP
+- PHP / composer
 - Mysql
